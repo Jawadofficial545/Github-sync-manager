@@ -1,0 +1,126 @@
+.github-sync-container {
+    max-width: 1200px;
+    margin: 20px 0;
+}
+
+.github-sync-card {
+    background: #fff;
+    border: 1px solid #ccd0d4;
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.github-sync-card h2 {
+    margin-top: 0;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.github-sync-card h3 {
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+.github-sync-card ol {
+    margin-left: 20px;
+    line-height: 1.8;
+}
+
+.github-sync-card p {
+    line-height: 1.6;
+}
+
+.status-badge {
+    display: inline-block;
+    padding: 4px 12px;
+    border-radius: 12px;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.status-checking {
+    background: #f0f0f1;
+    color: #646970;
+}
+
+.status-uptodate {
+    background: #d4edda;
+    color: #155724;
+}
+
+.status-update-available {
+    background: #fff3cd;
+    color: #856404;
+}
+
+.status-error {
+    background: #f8d7da;
+    color: #721c24;
+}
+
+.status-updating {
+    background: #cce5ff;
+    color: #004085;
+}
+
+.button-small {
+    height: 28px;
+    line-height: 26px;
+    padding: 0 10px;
+    font-size: 12px;
+}
+
+.install-update {
+    animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+    0%, 100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.7;
+    }
+}
+
+.sync-status {
+    font-weight: 500;
+}
+
+.wp-list-table td {
+    vertical-align: middle;
+}
+
+.loading-spinner {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    border: 2px solid #f3f3f3;
+    border-top: 2px solid #3498db;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.form-table th {
+    width: 200px;
+}
+
+.github-sync-card .description {
+    color: #646970;
+    font-size: 13px;
+    margin-top: 5px;
+}
+
+#github-sync-form input[type="text"],
+#github-sync-form input[type="password"] {
+    width: 100%;
+    max-width: 500px;
+}
